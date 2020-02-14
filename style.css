@@ -167,3 +167,35 @@ body{
   line-height: 2em;
 
 }
+
+
+
+
+
+.rainbow1{
+        animation: rainbow1 2.5s linear;
+        animation-iteration-count: infinite;
+}
+.rainbow2{
+        animation: rainbow2 2.5s linear;
+        animation-iteration-count: infinite;
+}
+
+@keyframes rainbow1{
+        0%{
+          color: rgb(0,0,255);
+            transform: rotate();
+        }
+        100%{
+          color: rgb(0, 0, 0);
+        }
+}
+@keyframes rainbow2{
+  0%{
+    color: rgb(0,0,255);
+      transform: rotate();
+  }
+  100%{
+    color: rgb(255, 217, 45);
+  }
+}
