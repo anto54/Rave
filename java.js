@@ -1,32 +1,70 @@
 
 // Get the modal
-var modal = document.getElementById("myModalRoasterRL");
+var modal1RL = document.getElementById("myModalRoasterRL");
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtnRoasterRL");
+var myBtnRoasterRL = document.getElementById("myBtnRoasterRL");
 
 // When the user clicks on the button, open the modal
-btn.onclick = function() {
-  modal.style.display = "block";
+myBtnRoasterRL.onclick = function() {
+  modal1RL.style.display = "block";
 }
 
 
+var modal2RL = document.getElementById("myModalObjectifRL");
 
-// Get the modal
-var modal1 = document.getElementById("myModalRoasterR6");
+var myBtnObjectifRL = document.getElementById("myBtnObjectifRL");
 
-// Get the button that opens the modal
+myBtnObjectifRL.onclick = function() {
+  modal2RL.style.display = "block";
+}
+
+
+var modal3RL = document.getElementById("myModalContactRL");
+
+
+var myBtnContactRL = document.getElementById("myBtnContactRL");
+
+
+myBtnContactRL.onclick = function() {
+  modal3RL.style.display = "block";
+}
+//RoasterR6
+var modal1R6 = document.getElementById("myModalRoasterR6");
+
+
 var myBtnRoasterR6 = document.getElementById("myBtnRoasterR6");
 
-// When the user clicks on the button, open the modal
-myBtnRoasterR6.onclick = function() {
-  modal1.style.display = "block";
-}
 
+myBtnRoasterR6.onclick = function() {
+  modal1R6.style.display = "block";
+}
+// ObjectifR6 
+var modal2R6 = document.getElementById("myModalObjectifR6");
+
+var myBtnObjectifR6 = document.getElementById("myBtnObjectifR6");
+
+
+myBtnObjectifR6.onclick = function() {
+  modal2R6.style.display = "block";
+}
+// ContactR6 
+var modal3R6 = document.getElementById("myModalContactR6");
+
+var myBtnContactR6 = document.getElementById("myBtnContactR6");
+
+
+myBtnContactR6.onclick = function() {
+  modal3R6.style.display = "block";
+}
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if ((event.target == modal1) || (event.target == modal)) {
-    modal1.style.display = "none";
-    modal.style.display = "none";
+  if ((event.target == modal1RL) || (event.target == modal2RL) || (event.target == modal3RL) || (event.target == modal1R6) || (event.target == modal2R6) || (event.target == modal3R6)) {
+    modal1RL.style.display = "none";
+    modal2RL.style.display = "none";
+    modal3RL.style.display = "none";
+    modal1R6.style.display = "none";
+    modal2R6.style.display = "none";
+    modal3R6.style.display = "none";
   }
 }
